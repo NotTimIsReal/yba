@@ -1,0 +1,96 @@
+body{
+    background-color: #E8DEEF;
+    overflow-x: hidden;
+}
+nav{
+    color:aqua
+}
+#start{
+    border: 2px;
+    color:black;
+    background-color:#bf66ff;
+    position: absolute;
+    left:25%;
+    top:200px;
+}
+.yba{
+    position:relative;
+    left:30%;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:white
+}
+#start:hover{
+    background-color:rgb(218, 153, 255);
+}
+#Features{
+    background-color: hsl(236, 100%, 78%);
+}
+#login{
+    position:absolute;
+    right:90px;
+}
+#f{
+    text-align:center;
+    font-size: 50px;
+    font-weight:lighter;
+}
+#card2{
+    position:absolute;
+    left: 550px;
+    top:125px;
+
+}
+#dollar{
+    font-size: 50px;
+    text-align: center
+}
+#fa{
+    font-size: 50px;
+    text-align: center
+}
+#card3{
+    position:absolute;
+    top:125px;
+    right: 0px;
+}
+#but{
+    border: 0px;
+    background-color:black;
+}
+#about-me{
+    position:absolute;
+    top:150px;
+    right:565px
+}
+#devs{
+    text-align: center;
+    font-weight: 350;
+}
+#card4{
+    position:absolute;
+    left: 550px;
+    top:425px;
+
+}
+#price{
+    text-align: center;
+    font-weight:100;
+}
+.card-body:hover{
+    box-shadow: 1000;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 580px;
+  }
+#bot{
+    display: block;
+    margin-top: 40px;
+    margin-left:580px;
+}

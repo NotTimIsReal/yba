@@ -1,0 +1,23 @@
+doctype html
+head
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title Homepage
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We', crossorigin='anonymous')
+  link(rel='icon', href='https://cdn.discordapp.com/avatars/862143828920369172/3c69502e3caa7a667b0cbb71eba9733e.webp?size=1024')
+  script(src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js', integrity='sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp', crossorigin='anonymous')
+  script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js', integrity='sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/', crossorigin='anonymous')
+  script(src='js/script.js')
+  link(rel='stylesheet', type='text/css', href='css/style.css')
+  link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css')
+include /includes/header.pug
+.yba
+  h1#ap.animate__animated.animate__pulse YourBetterAssistant
+  h6 A Better Bot
+  h3#info Welcome Back!
+  h2#idk
+button#start.btn.btn-lg.btn-primary(type='button')
+  a(href='https://dsc.gg/betterassistant') Get Started
+noscript No Javascript That is a bit sad
+
+img#bot(src="https://cdn.discordapp.com/avatars/862143828920369172/3c69502e3caa7a667b0cbb71eba9733e.webp?size=1024", alt="Bot Image")
+include /includes/footer.pug
